@@ -29,7 +29,13 @@
 <script type="text/javascript" src="js.js"></script>
 </head>
 
-<body class="">
+<body class="" onload="">
+<p id="vars" ><input type="button" value="Refresh" onclick="vars()" /></p>
+<p id="" ><input id="key" placeholder="key" /><input id="val" placeholder="val" /><input type="button" value="add" onclick="addvar()" /></p>
+<p id="" ><input id="idtobedeleted" placeholder="id" /><input type="button" value="remove" onclick="delvar()" /></p>
+<p id="" ><input id="keytobechecked" placeholder="id" /><input type="button" value="check" onclick="check()" /></p>
+<p id="isset" ></p>
+<hr />
 <p id=""><input id="add" placeholder="address" value="https://gost.ir/time.php" /> <input type="button" onclick="HReq()" value="get" /></p>
 <p id="time"></p>
 </body>

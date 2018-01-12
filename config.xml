@@ -1,10 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="ir.matingholami.jaami" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <preference name='phonegap-version' value='cli-6.5.0' />
-	<name>شیخ جام</name>
-    <description>
-        یک تحقیق پیرامون آثار شیخ جام
-    </description>
+	<name>HReq Test</name>
+    <description>a phonegap app for testing http-request functions!</description>
     <author email="matingholami@live.com" href="http://matingholami.ir">
         MatinGholami
     </author>
@@ -16,5 +14,5 @@
     <path url="*" event="ul_event" />
   </host>
 </universal-links>
-<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+<gap:plugin name="cordova-plugin-whitelist" source="npm" />
 </widget>

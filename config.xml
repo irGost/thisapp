@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ir.matingholami.jaami" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <preference name='phonegap-version' value='cli-6.5.0' />
+	<name>شیخ جام</name>
+    <description>
+        یک تحقیق پیرامون آثار شیخ جام
+    </description>
+    <author email="matingholami@live.com" href="http://matingholami.ir">
+        MatinGholami
+    </author>
+    <content src="index.html" />
+   <access origin="*" /><!-- the links that app can open -->
+	<allow-intent href="*" /><!-- the links that app can ask the system to open -->
+<universal-links>
+  <host name="*" scheme="*">
+    <path url="*" event="ul_event" />
+  </host>
+</universal-links>
+<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+</widget>

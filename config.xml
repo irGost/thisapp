@@ -3,11 +3,11 @@
     <preference name='phonegap-version' value='cli-6.5.0' />
 	<name>VetMate</name>
     <description>a 24/7 vet assistant, right in your pocket.</description>
-    <author email="vetmate@gost.ir" href="https://gost.ir">
-        MatinGholami
+    <author email="info@vetmate.ir" href="https://vetmate.ir">
+        VetMate
     </author>
     <content src="index.html" />
-	<access origin="https://gost.ir"></access>
+	<access origin="https://vetmate.ir"></access>
 	
 	<allow-intent href="*" /><!-- the links that app can ask the system to open -->
 <universal-links>
